@@ -9,7 +9,7 @@ echo    STUDENT CONSULTATION SCHEDULER - CLICK TO START
  echo   Local SQLite - no Node.js, npm, pip, or MongoDB
  echo  =======================================================
 echo.
-REM Like BLOOM, this launcher uses Python already on your Windows PC.
+REM 
 set "PY_CMD="
 where py >nul 2>nul
 if not errorlevel 1 set "PY_CMD=py -3"
