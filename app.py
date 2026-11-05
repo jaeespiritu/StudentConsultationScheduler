@@ -1,6 +1,4 @@
-"""Student Consultation Scheduler — local and Railway-compatible Python + SQLite.
-No Flask, Node.js, npm, or pip packages are required.
-"""
+
 import hashlib
 import hmac
 import json
